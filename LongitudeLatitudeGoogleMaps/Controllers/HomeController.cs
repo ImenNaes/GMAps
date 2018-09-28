@@ -26,5 +26,12 @@ namespace LongitudeLatitudeGoogleMaps.Controllers
 
             return View();
         }
+
+        public ActionResult Map()
+        {
+            ViewBag.Message = "Map page.";
+
+            return View();
+        }
     }
 }
