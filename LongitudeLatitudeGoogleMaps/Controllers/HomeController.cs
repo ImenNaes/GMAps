@@ -33,5 +33,13 @@ namespace LongitudeLatitudeGoogleMaps.Controllers
 
             return View();
         }
+
+        public ActionResult MapOtherVersion()
+        {
+            ViewBag.Message = "Map page.";
+
+            return View();
+        }
+
     }
 }
